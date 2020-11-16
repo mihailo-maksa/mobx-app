@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +38,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom Styles */
+
+html,
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 50vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  cursor: pointer;
 }
